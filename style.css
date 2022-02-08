@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-question {
+    width: 100%;
+    max-width: 680px;
+    background: #ffff;
+    padding: 28px;
+    border: none;
+    border-radius: 12px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: 15px auto;
+}
+
+.section-question-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-toggle {
+    font-size: 22px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: none;
+}
+
+.hidden-text {
+    margin: 22px auto;
+    display: none;
+}
+
+.show-text .hidden-text {
+    display: block;
+}
